@@ -26,39 +26,88 @@
 - OS styles
 - Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS (?), basemaps in IPython Notebooks with Folium or R with leaflet, basemaps in GIS applications like ArcMap and QGIS
 
+#### Technical Functionality
+
+(with leaflet)
+- How a raster tile service works
+- Connecting with WMTS
+- Connecting with ZXY
+- Specifying style
+- Caching tiles ?
+- Premium zoom levels
+
+`Demo`
+
 ### OS Vector Tiles API
 
-- WFS
-- Vector features returned in GML and GeoJSON
+- VTS
+- Vector tiles returned in pbf
+  - Why no TileJSON? Is it coming?
+- Advantages of vector tiles
+  - Smooth zooming
+  - Low bandwidth requirements
+  - Customisable layers and styling
 - Examples of layers included
+- Minimal attribution required for visualisation 
+- API dynamically serves tiles by Z, X and Y
+- Premium zoom levels?  
+- Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS
+
+#### Technical Functionality
+
+(with Mapbox GL JS)
+- VTS
+- Service metadata endpoint: interpretation
+- Style endpoint: interpretation
+  - Customising vector tiles style using Leaflet
+  - Forthcoming OS vector tile styles
+- Tile Request endpoint: interpretation
+  - .pbf files
+  - Vector layers return within tiles
+  - Spatial Reference Systems
+- Building custom vector tiles styles using Maputnik
+
+`Demo`
+
+### OS Features API
+
+- WFS
+- Vector features returned in GML or GeoJSON
+- Feature vector geometries
 - Rich attribution for analysis or visualisation
 - Query API by geometry, attribute, etc
 - Transactions return up to 100 features - easy pagination to fetch larger collections of features with multiple requests.
 - Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS, analysis in IPython Notebooks with geopandas, visualisation or analysis in GIS applications like ArcMap and QGIS
 
+#### Technical Functionality
 
-### OS Features API
-- WFS
+(with IPython or fetch and Leaflet?)
+- The OGC WFS standard
 - Request types
     - GetCapabilities: interpreting the response
-    - 
 - Feature types
 - Parameters
-    - key
-    - service: 'WFS'
-    - request: 'GetFeature',
-    - version: '2.0.0',
-    - typeNames: feature type name,
-    - outputFormat: 'GEOJSON',
-    - srsName: 'urn:ogc:def:crs:EPSG::4326',
-    - filter: see below,
-    - count: 100,
-    - startIndex: 0
-    - Bounding box
+  - key
+  - service: 'WFS'
+  - request: 'GetFeature',
+  - version: '2.0.0',
+  - typeNames: feature type name,
+  - outputFormat: 'GEOJSON',
+  - srsName: 'urn:ogc:def:crs:EPSG::4326',
+  - filter: see below,
+  - count: 100,
+  - startIndex: 0
+  - Bounding box
+- Percent encoding
 - XML filters ()
-    - Spatial filters
-    - Filtering by attribute
+  - Spatial filters
+  - Filtering by attribute
+- Fetching results 
 - Ordering of response 
+- Parsing: GML
+- Parsing: GeoJSON
+
+`Demo`
 
 ```xml
 <!-- Example 1: Match string match DescriptiveGroup attribute -->

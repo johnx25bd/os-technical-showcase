@@ -2,13 +2,40 @@
 
 ## Intro to APIs
 
-## How They Work
+- The OS Data Hub, Open MasterMap Implementation Plan and Public Sector Geospatial Agreement
+- Why it matters: making it easier and cheaper (free-er) to access OS data
+- Goal: to unlock economic value of OS location data
 
-## Contructing a Query
+### How They Work
+
+- RESTful APIs using open standards like WMTS, ZXY, VTS, WFS
+- Sign up and register for an API key, then send requests from client applications and get data returned
+
+### Session Goals:
+
+- Introduce the OS Maps, Vector Tiles and Features APIs
+- Help users understand the capabilities and constraints of each API, and choose which would be right for them
+- A technical walkthrough of the key functionality of each API
+
+## The APIs: a quick look
 
 ### OS Maps API
+
 - WMTS vs ZXY
-- 
+- Raster tiles: pros and cons
+- OS styles
+- Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS (?), basemaps in IPython Notebooks with Folium or R with leaflet, basemaps in GIS applications like ArcMap and QGIS
+
+### OS Vector Tiles API
+
+- WFS
+- Vector features returned in GML and GeoJSON
+- Examples of layers included
+- Rich attribution for analysis or visualisation
+- Query API by geometry, attribute, etc
+- Transactions return up to 100 features - easy pagination to fetch larger collections of features with multiple requests.
+- Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS, analysis in IPython Notebooks with geopandas, visualisation or analysis in GIS applications like ArcMap and QGIS
+
 
 ### OS Features API
 - WFS

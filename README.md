@@ -24,7 +24,7 @@
 - WMTS vs ZXY
 - Raster tiles: pros and cons
 - OS styles
-- Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS (?), basemaps in IPython Notebooks with Folium or R with leaflet, basemaps in GIS applications like ArcMap and QGIS
+- Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS (?), basemaps in IPython Notebooks with Folium or R with leaflet, basemaps in GIS applications including QGIS
 
 #### Technical Functionality
 
@@ -77,7 +77,7 @@
 - Rich attribution for analysis or visualisation
 - Query API by geometry, attribute, etc
 - Transactions return up to 100 features - easy pagination to fetch larger collections of features with multiple requests.
-- Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS, analysis in IPython Notebooks with geopandas, visualisation or analysis in GIS applications like ArcMap and QGIS
+- Use cases: web mapping in the browser with Leaflet / OpenLayers / Mapbox GL JS, analysis in IPython Notebooks with geopandas, visualisation or analysis in GIS applications including QGIS
 
 #### Technical Functionality
 

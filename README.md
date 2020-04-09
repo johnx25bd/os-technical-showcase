@@ -5,6 +5,7 @@
 - The OS Data Hub, Open MasterMap Implementation Plan and Public Sector Geospatial Agreement
 - Why it matters: making it easier and cheaper (free-er) to access OS data
 - Goal: to unlock economic value of OS location data
+- Mention pricing and restrictions, and how to find more information.
 
 ### How They Work
 
@@ -137,21 +138,3 @@
   </ogc:And>
 </ogc:Filter>
 ```
-
-- Constructing a URL
-
-## Fetching Data
-
-### On the terminal with cURL
-
-### From within a JavaScript application
-
-- fetch
-- d3.json
-
-
-### Python
-- requests
-- urllib2
-
-### ???

@@ -2,7 +2,6 @@
 
 ## Intro to APIs
 
-- Public Sector Geospatial Agreement => unlocking the economic value of Ordnance Survey data by making it easier and less expensive to access and use OS data.
 - The OS Data Hub, which will include 7 APIs. This webinar will touch on 4 beta services that are live now:
   - OS Maps API
   - OS Vector Tiles API
@@ -11,7 +10,19 @@
 - There will be other webinars on providing a more general overview of the APIs, and pricing and licensing details.
 - We'll focus on how developers and data scientists can access the APIs. 
 - I will be working in JavaScript, but we have examples and tutorials in Python. 
-- If you have questions or comments, tweet at @OrdnanceSurvey or use the hashtag #OSDeveloper
+- If you have questions or comments, tweet at @OrdnanceSurvey or use the hashtag #OSDeveloper, or email webinars@os.uk.
+
+### Why?
+
+- Public Sector Geospatial Agreement => designed to the economic value of Ordnance Survey data by making it easier and less expensive to access and use OS data.
+
+## OS Data Hub
+
+- Demo of logging into OS Data Hub,  
+- looking at the dashboard, 
+- creating a new project and 
+- getting a key
+
 
 ### How They Work
 
@@ -27,12 +38,6 @@
 - Help users understand the capabilities and constraints of each API, and choose which would be right for them
 - A technical walkthrough of the key functionality of each API
 
-## OS Data Hub
-
-- Demo of logging into OS Data Hub,  
-- looking at the dashboard, 
-- creating a new project and 
-- getting a key
 
 
 ## The APIs: a quick look

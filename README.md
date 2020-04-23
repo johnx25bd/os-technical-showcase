@@ -1,5 +1,26 @@
 # Technical Showcase: Outline
 
+## Ordnance Survey in 2020
+
+- OS has a rich history, serving as Britain's national mapping agency since William Roy surveyed Scotland in the mid 1700s.
+- As mapping has evolved, so has Ordnance Survey. 
+- In 2020, teams of OS surveyors capture high resolution location data about Britain. 
+- This is analyzed, parsed, tagged, and stored in a spatial database with 500million features, the OS MasterMap Topography layer. 
+- We're constantly innovating, working to provide state of the art location data and map visualization techniques. 
+- OS adapts to the needs of the moment. We recently announced our COVID19 license, which makes OS data free for anyone supporting the UK response to the coronavirus pandemic.
+
+## PSGA
+
+- Public Sector Geospatial Agreement => designed to the economic value of Ordnance Survey data by making it easier and less expensive to access and use OS data.
+- Read slides
+- Today we are going to look at the OS Data Hub, a cornerstone of Ordnance Survey's effort to fulfill our commitment to make it easier for developers, data scientists and other users to access OS data.
+
+## OS Data Hub
+
+- Portal to the new APIs.
+- Show demo
+- Manage account and API keys, monitor usage, access documentation, support and pricing information, and so on. 
+
 ## Intro to APIs
 
 - The OS Data Hub, which will include 7 APIs. This webinar will touch on 4 beta services that are live now:
@@ -11,10 +32,6 @@
 - We'll focus on how developers and data scientists can access the APIs. 
 - I will be working in JavaScript, but we have examples and tutorials in Python. 
 - If you have questions or comments, tweet at @OrdnanceSurvey or use the hashtag #OSDeveloper, or email webinars@os.uk.
-
-### Why?
-
-- Public Sector Geospatial Agreement => designed to the economic value of Ordnance Survey data by making it easier and less expensive to access and use OS data.
 
 ## OS Data Hub
 

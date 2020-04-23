@@ -1,5 +1,15 @@
 # Technical Showcase: Outline
 
+
+## Intro
+
+- Me: John Hoopes, Developer Advocate at Ordnance Survey. 
+- Masters in Spatial Data Science and Visualisation at the Bartlett Centre for Advanced Spatial Analysis at UCL.
+- Background working in tech startups, civil society organizations and the public sector.
+
+Agenda
+
+
 ## Ordnance Survey in 2020
 
 - OS has a rich history, serving as Britain's national mapping agency since William Roy surveyed Scotland in the mid 1700s.
@@ -11,7 +21,7 @@
 
 ## PSGA
 
-- Public Sector Geospatial Agreement => designed to the economic value of Ordnance Survey data by making it easier and less expensive to access and use OS data.
+- Public Sector Geospatial Agreement => designed to unlock the economic value of Ordnance Survey data by making it easier and less expensive to access and use OS data.
 - Read slides
 - Today we are going to look at the OS Data Hub, a cornerstone of Ordnance Survey's effort to fulfill our commitment to make it easier for developers, data scientists and other users to access OS data.
 
@@ -19,26 +29,32 @@
 
 - Portal to the new APIs.
 - Show demo
+- looking at the dashboard, 
+- creating a new project and 
+- getting a key
+- Pricing and licensing
+  - Open data
+  - Premium data - threshold
+  - Reasons for the changes
+
 - Manage account and API keys, monitor usage, access documentation, support and pricing information, and so on. 
 
 ## Intro to APIs
+
+- First, what is an API?
 
 - The OS Data Hub, which will include 7 APIs. This webinar will touch on 4 beta services that are live now:
   - OS Maps API
   - OS Vector Tiles API
   - OS Features API
+  - Other APIs
   - OS Downloads API
-- There will be other webinars on providing a more general overview of the APIs, and pricing and licensing details.
-- We'll focus on how developers and data scientists can access the APIs. 
-- I will be working in JavaScript, but we have examples and tutorials in Python. 
-- If you have questions or comments, tweet at @OrdnanceSurvey or use the hashtag #OSDeveloper, or email webinars@os.uk.
 
-## OS Data Hub
+Demo
 
-- Demo of logging into OS Data Hub,  
-- looking at the dashboard, 
-- creating a new project and 
-- getting a key
+
+
+
 
 
 ### How They Work
@@ -121,7 +137,7 @@ And show png tiles in each style
   - .pbf files. "Protocolbuffer Binary Format"
   - Vector layers return within tiles
   - Spatial Reference Systems
-- Building custom vector tiles styles using Maputnik
+- Building custom vector tiles styles using **Maputnik**
 
 `Demo`
 
